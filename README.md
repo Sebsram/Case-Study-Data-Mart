@@ -87,3 +87,4 @@ age_band
 demographic
 customer_type
 2. Do you have any further recommendations for Danny’s team at Data Mart or any interesting insights based off this analysis?
+3. 
