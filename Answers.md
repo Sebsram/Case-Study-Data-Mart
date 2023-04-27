@@ -111,3 +111,64 @@ A total of 28 rows were return.
 | USA           | 7            | 760331754  |
 | USA           | 8            | 712002790  |
 | USA           | 9            | 110532368  |
+
+**5. What is the total count of transactions for each platform** 
+
+![a5](https://user-images.githubusercontent.com/130475600/234927719-3c5a9a06-97e9-4070-bd1f-1b3d007b82dd.PNG)
+
+| platform | t_transactions |
+| -------- | -------------- |
+| Shopify  | 5925169        |
+| Retail   | 1081934227     |
+
+**6. What is the percentage of sales for Retail vs Shopify for each month?**
+
+![A6](https://user-images.githubusercontent.com/130475600/234931630-9513302d-c86e-4cf2-bed0-d2d7de49cd21.PNG)
+
+| year_number | month_number | retail_perc | shopify_perc |
+| ----------- | ------------ | ----------- | ------------ |
+| 2018        | 3            | 97.92       | 2.08         |
+| 2018        | 4            | 97.93       | 2.07         |
+| 2018        | 5            | 97.73       | 2.27         |
+| 2018        | 6            | 97.76       | 2.24         |
+| 2018        | 7            | 97.75       | 2.25         |
+| 2018        | 8            | 97.71       | 2.29         |
+| 2018        | 9            | 97.68       | 2.32         |
+| 2019        | 3            | 97.71       | 2.29         |
+| 2019        | 4            | 97.80       | 2.20         |
+| 2019        | 5            | 97.52       | 2.48         |
+| 2019        | 6            | 97.42       | 2.58         |
+| 2019        | 7            | 97.35       | 2.65         |
+| 2019        | 8            | 97.21       | 2.79         |
+| 2019        | 9            | 97.09       | 2.91         |
+| 2020        | 3            | 97.30       | 2.70         |
+| 2020        | 4            | 96.96       | 3.04         |
+| 2020        | 5            | 96.71       | 3.29         |
+| 2020        | 6            | 96.80       | 3.20         |
+| 2020        | 7            | 96.67       | 3.33         |
+| 2020        | 8            | 96.51       | 3.49         |
+
+**7. What is the percentage of sales by demographic for each year in the dataset?**
+
+![a7](https://user-images.githubusercontent.com/130475600/234933399-eddbb903-8418-4a0f-8217-d4290c30c63e.PNG)
+
+| year_number | couples_perc | families_perc | unknown_perc |
+| ----------- | ------------ | ------------- | ------------ |
+| 2018        | 26.38        | 31.99         | 41.63        |
+| 2019        | 27.28        | 32.47         | 40.25        |
+| 2020        | 28.72        | 32.73         | 38.55        |
+
+**8. Which age_band and demographic values contribute the most to Retail sales?**
+
+![a8](https://user-images.githubusercontent.com/130475600/234935063-6f94abd5-3f61-4266-8abb-9f7c116a3c7b.PNG)
+
+| age_band     | demographics | total_sales | contributed |
+| ------------ | ------------ | ----------- | ----------- |
+| unknown      | unknown      | 16067285533 | 40.52       |
+| Retirees     | Families     | 6634686916  | 16.73       |
+| Retirees     | Couples      | 6370580014  | 16.07       |
+| Middle Aged  | Families     | 4354091554  | 10.98       |
+| Young Adults | Couples      | 2602922797  | 6.56        |
+| Middle Aged  | Couples      | 1854160330  | 4.68        |
+| Young Adults | Families     | 1770889293  | 4.47        |
+
