@@ -63,7 +63,6 @@ Generate a new avg_transaction column as the sales value divided by transactions
 6. What is the percentage of sales for Retail vs Shopify for each month?
 7. What is the percentage of sales by demographic for each year in the dataset?
 8. Which age_band and demographic values contribute the most to Retail sales?
-9. Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? If not - how would you calculate it instead?
 
 **3. Before & After Analysis**
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
